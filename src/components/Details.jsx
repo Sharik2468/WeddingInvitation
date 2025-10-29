@@ -11,27 +11,27 @@ const Details = () => {
           <div className="detail-card">
             <div className="detail-icon">🏛️</div>
             <h3 className="detail-title">Церемония</h3>
-            <p className="detail-time">15:00</p>
-            <p className="detail-location">Дворец бракосочетания №1</p>
-            <p className="detail-address">ул. Английская набережная, 28</p>
+            <p className="detail-time">10:00</p>
+            <p className="detail-location">Комитет Ивановской области ЗАГС</p>
+            <p className="detail-address">г. Иваново, ул. Батурина, д. 13.</p>
           </div>
 
           <div className="detail-card">
             <div className="detail-icon">🎉</div>
             <h3 className="detail-title">Банкет</h3>
-            <p className="detail-time">17:00</p>
-            <p className="detail-location">Ресторан "Усадьба"</p>
-            <p className="detail-address">Петергофское шоссе, 15</p>
+            <p className="detail-time">15:00</p>
+            <p className="detail-location">Городок 37</p>
+            <p className="detail-address">г. Кохма, ул. Ивановская., д. 6.</p>
           </div>
 
           <div className="detail-card">
             <div className="detail-icon">👔</div>
             <h3 className="detail-title">Дресс-код</h3>
             <p className="detail-description">
-              Праздничный стиль
+              Четкий
             </p>
             <p className="detail-colors">
-              Цвета: пастельные оттенки, избегайте белого
+              Цвета: Тоже четкие
             </p>
           </div>
         </div>

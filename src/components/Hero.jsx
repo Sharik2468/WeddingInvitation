@@ -14,9 +14,9 @@ const Hero = () => {
         <p className="hero-subtitle">Приглашают вас на свадьбу</p>
         <div className="hero-date">
           <div className="date-box">
-            <span className="date-day">15</span>
+            <span className="date-day">24</span>
             <span className="date-month">Июля</span>
-            <span className="date-year">2025</span>
+            <span className="date-year">2026</span>
           </div>
         </div>
         <div className="ornament">❦</div>
