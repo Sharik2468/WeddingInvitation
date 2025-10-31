@@ -1,0 +1,21 @@
+.survey {
+  padding: 4rem 2rem;
+}
+
+.survey-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.survey-link { text-decoration: none; }
+
+.survey-button { box-shadow: 0 10px 30px var(--shadow); }
+
+.survey-button-text {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
