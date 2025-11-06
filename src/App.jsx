@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <Iridescence color={[0.6, 1.1, 1.1]} amplitude={0.12} speed={0.1} mouseReact={true} />
+      <Iridescence color={[1, 1, 1]} amplitude={0.12} speed={0.4} mouseReact={true} />
       <div className="app-content">
         <Header />
         <Hero />

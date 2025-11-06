@@ -33,7 +33,7 @@ export default function CalendarSection() {
                 <span>
                   {value.locale('ru').format('MMMM YYYY')}
                 </span>
-                <Badge color="#d4a574" text="День свадьбы" />
+                <Badge color="var(--primary-color)" text="День свадьбы" />
               </div>
             )}
           />

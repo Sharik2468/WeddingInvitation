@@ -5,10 +5,11 @@
 
 .cd-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, max-content);
   gap: 1.5rem;
   align-items: end;
   justify-items: center;
+  justify-content: center;
 }
 
 .cd-item {
@@ -30,11 +31,11 @@
 }
 
 @media (max-width: 900px) {
-  .cd-grid { grid-template-columns: repeat(2, 1fr); }
+  .cd-grid { grid-template-columns: repeat(2, max-content); }
 }
 
 @media (max-width: 520px) {
-  .cd-grid { grid-template-columns: 1fr; }
+  .cd-grid { grid-template-columns: max-content; }
 }
 
 
