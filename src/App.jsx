@@ -30,7 +30,7 @@ function App() {
         <Reveal><Hero /></Reveal>
         <Reveal><Invitation /></Reveal>
         <Reveal><CalendarSection /></Reveal>
-        <Reveal><Details /></Reveal>
+        <Reveal once={false} amount={0.3} margin="30% 0px 30% 0px" exitOnLeave={true}><Details /></Reveal>
         <Reveal><CountdownSection /></Reveal>
         <Reveal><Wishes /></Reveal>
         <Reveal><Survey /></Reveal>
