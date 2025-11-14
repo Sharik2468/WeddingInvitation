@@ -1,13 +1,20 @@
 .details {
+  --details-gap: 3rem;
   padding: 6rem 2rem;
   background: transparent;
+}
+
+.details-intro {
+  margin-bottom: var(--details-gap);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .details-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: var(--details-gap);
+  margin-top: 0;
 }
 
 .detail-card { text-align: center; }

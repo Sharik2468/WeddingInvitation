@@ -10,6 +10,7 @@ import Survey from './components/Survey'
 import RSVP from './components/RSVP'
 import Footer from './components/Footer'
 import Iridescence from './components/Iridescence'
+import Reveal from './components/Reveal'
 import './App.css'
 
 function App() {
@@ -26,14 +27,14 @@ function App() {
       <Iridescence color={[1, 1, 1]} amplitude={0.12} speed={0.4} mouseReact={true} />
       <div className="app-content">
         <Header />
-        <Hero />
-        <Invitation />
-        <CalendarSection />
-        <Details />
-        <CountdownSection />
-        <Wishes />
-        <Survey />
-        {/* <RSVP onSubmit={handleRSVP} submitted={rsvpSubmitted} /> */}
+        <Reveal><Hero /></Reveal>
+        <Reveal><Invitation /></Reveal>
+        <Reveal><CalendarSection /></Reveal>
+        <Reveal><Details /></Reveal>
+        <Reveal><CountdownSection /></Reveal>
+        <Reveal><Wishes /></Reveal>
+        <Reveal><Survey /></Reveal>
+        {/* <Reveal><RSVP onSubmit={handleRSVP} submitted={rsvpSubmitted} /></Reveal> */}
         <Footer />
       </div>
     </div>

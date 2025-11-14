@@ -2,7 +2,7 @@ import React from 'react'
 import GlareHover from './GlareHover'
 import './Survey.css'
 
-const SURVEY_URL = 'https://forms.gle/replace-with-your-form'
+const SURVEY_URL = 'https://forms.yandex.ru/u/6916c56102848f2807840860'
 
 export default function Survey() {
   return (

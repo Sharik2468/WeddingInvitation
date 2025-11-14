@@ -1,6 +1,5 @@
 .countdown {
   padding: 4rem 2rem;
-  background: transparent;
 }
 
 .cd-grid {
@@ -28,6 +27,10 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.countdown .gradient-container {
+  display: none;
 }
 
 @media (max-width: 900px) {
