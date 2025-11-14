@@ -1,13 +1,15 @@
 .details {
   --details-gap: 3rem;
+  --intro-card-height: 300px;
+  --detail-card-height: 250px;
   padding: 6rem 2rem;
   background: transparent;
 }
 
 .details-intro {
   margin-bottom: var(--details-gap);
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .details-grid {
@@ -67,11 +69,24 @@
 @media (max-width: 768px) {
   .details {
     padding: 4rem 1rem;
+    /* Increase card heights to fit wrapped text on small screens */
+    --intro-card-height: 360px;
+    --detail-card-height: 260px;
   }
   
   .details-grid {
     grid-template-columns: 1fr;
   }
+
+  /* Tighter padding and smaller typography inside cards on mobile */
+  .detail-tilted-overlay {
+    padding: 1rem;
+  }
+  .detail-icon { font-size: 2rem; }
+  .detail-title { font-size: 1.4rem; }
+  .detail-time { font-size: 1.2rem; }
+  .detail-description { font-size: 1rem; }
+  .detail-additional-description { font-size: 0.9rem; }
 }
 
 .detail-tilted-overlay {

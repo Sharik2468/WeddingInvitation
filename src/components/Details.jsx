@@ -11,7 +11,7 @@ const Details = () => {
         <div className="details-intro">
           <TiltedCard
             imageSrc={`data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f5e6d3'/><stop offset='100%' stop-color='%23ffffff'/></linearGradient></defs><rect width='100%' height='100%' fill='url(%23g)'/></svg>`}
-            containerHeight="250px"
+            containerHeight="var(--intro-card-height)"
             containerWidth="100%"
             imageHeight="100%"
             imageWidth="100%"
@@ -34,7 +34,7 @@ const Details = () => {
         <div className="details-grid">
           <TiltedCard
             imageSrc={`data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23ffffff'/><stop offset='100%' stop-color='%23f5e6d3'/></linearGradient></defs><rect width='100%' height='100%' fill='url(%23g)'/></svg>`}
-            containerHeight="250px"
+            containerHeight="var(--detail-card-height)"
             containerWidth="100%"
             imageHeight="100%"
             imageWidth="100%"
@@ -54,7 +54,7 @@ const Details = () => {
 
           <TiltedCard
             imageSrc={`data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f5e6d3'/><stop offset='100%' stop-color='%23ffffff'/></linearGradient></defs><rect width='100%' height='100%' fill='url(%23g)'/></svg>`}
-            containerHeight="250px"
+            containerHeight="var(--detail-card-height)"
             containerWidth="100%"
             imageHeight="100%"
             imageWidth="100%"
