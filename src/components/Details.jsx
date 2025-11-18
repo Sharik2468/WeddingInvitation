@@ -24,7 +24,8 @@ const Details = () => {
               <div className="detail-tilted-overlay">
                 <div className="detail-icon">📍</div>
                 <h3 className="detail-title">Место проведения</h3>
-                <p className="detail-description">Мероприятие пройдет в Городок 37</p>
+                <p className="detail-description">Место: Ресторан «Городок 37»</p>
+                <p className="detail-description">Зал: Шатер</p>
                 <p className="detail-additional-description">г. Кохма, ул. Ивановская., д. 6.</p>
               </div>
             }
